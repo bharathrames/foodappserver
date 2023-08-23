@@ -8,8 +8,8 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-    origin:"http://localhost:3000"
-   //origin:"https://eqiumentrentalapp.netlify.app"
+    //origin:"http://localhost:3000"
+   origin:"https://easyfoodapp.netlify.app"
 }));
 
 app.get("/", function (req, res) {
