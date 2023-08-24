@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors({
     //origin:"http://localhost:3000"
    origin:"https://easyfoodapp.netlify.app"
-}));
+})); 
 
 app.get("/", function (req, res) {
   res.send("<h5>Recepie app</h5>");
